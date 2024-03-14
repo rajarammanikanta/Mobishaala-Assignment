@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+}
+
+.background-container{
+    background-image: url("https://img.freepik.com/free-vector/background-gradient-green-tones_23-2148360340.jpg"); 
+    height: 100vh;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+  
+} 
+@media screen and (max-width: 768px){
+    .background-container{ 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+
+
+    }
+} 
+@media screen and (max-width: 992px){
+    .background-container{ 
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .background-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  
+}   
+@media screen and (max-width: 494px){
+    .background-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  
+}  
+
+
+
+
+.main-heading{
+    font-family: "Roboto";
+    font-weight: 500px;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+} 
+
+.span{
+    color: orange; 
+    font-size: 20px;
+} 
+.content{
+    font-size: 20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+} 
+
+.list-item{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 8px;
+} 
+
+.get-started-button{
+    background-color: #d6045c;
+    color: white;
+    border-width: 0px; 
+    cursor: pointer;
+    font-size: 15px; 
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px; 
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.talk-to-us-button{
+    background-color: #35f04b;
+    color: white;
+    border-width: 0px; 
+    cursor: pointer;
+    font-size: 15px; 
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+   
+}  
+
+.whatsapp-icon{
+    height: 18px;
+    width: 18px;
+} 
+.whatsapp-icon-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.Institute-heading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+
+} 
+
+.student-container{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+
+} 
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding: 50px;
+} 
+@media screen and (max-width: 494px){ 
+    .left-container{ 
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+}
+@media screen and (max-width: 600px){ 
+    .left-container{ 
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+}
+@media screen and (max-width: 768px){ 
+    .left-container{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+@media screen and (max-width: 992px){ 
+    .left-container{ 
+        width: 100%; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+
+.mainheading-content-container{
+    margin-top: 10px;
+    margin-bottom: 30px;
+} 
+
+.institute-container{
+    margin-top: 30px;
+} 
+
+.Institute-heading{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+@media screen and (max-width: 600px){
+    .right-container{
+        width: 50%;
+    }  
+ 
+ 
+}
+@media screen and (max-width: 494px){
+    .right-container{
+        width: 30%;
+    }  
+ 
+ 
+}
+.video-player-container{
+    margin-bottom: 10px;
+} 
+
+@media screen and (max-width:600px){
+    .video-player{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+
+.footer{
+    background-color: #e80e5a; 
+    height: 38vh;
+    width: 100%;
+} 
+
+.footer-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+} 
+.footer-main-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}  
+.footer-span-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+
+} 
+
+
+.footer-desc{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+} 
+
+.vison-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+
+.footer-inner-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px){
+    .footer-inner-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+} 
+@media screen and (max-width: 768px){
+    .footer-inner-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+} 
+
+@media screen and (max-width: 992px){
+    .footer-inner-container{
+        display: flex;
+        flex-direction: column;
+     
+       padding: 10px;
+        font-size: 13px;
+    }
+}
